@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: iparser
+Version: 0.1.dev0
+Summary: Extract informations from your .ipa files
+Home-page: UNKNOWN
+Author: Vincenzo Romano
+Author-email: enzxx84@gmail.com
+License: MIT
+Description: Extract informations from your .ipa files
+Keywords: ipa ios app plist
+Platform: UNKNOWN

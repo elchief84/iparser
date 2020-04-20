@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+iparser/__init__.py
+iparser.egg-info/PKG-INFO
+iparser.egg-info/SOURCES.txt
+iparser.egg-info/dependency_links.txt
+iparser.egg-info/entry_points.txt
+iparser.egg-info/not-zip-safe
+iparser.egg-info/top_level.txt
