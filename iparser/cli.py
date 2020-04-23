@@ -1,20 +1,11 @@
 import click
+from iparser import IPArser
 
-@click.group()
-@click.option("--ssid", help="WiFi network name.")
-@click.option("--security", type=click.Choice(["WEP", "WPA", ""]))
-@click.option("--password", help="WiFi password.")
+@click.command()
+@click.argument("path")
 @click.pass_context
-def main(ctx, ssid: str, security: str = "", password: str = ""):
-    print("cli")
-
-@main.command()
-@click.pass_context
-def echo(phrase):
-    print(phrase)
+def main(ctx, path: str):
+    IPArser.parse(path)
 
 def start():
     main(obj={})
-
-if __name__ == "__main__":
-    start()

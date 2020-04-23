@@ -9,11 +9,6 @@ import zipfile
 import plistlib
 
 class IPArser(object):
-    def __init__(self, path):
-        self.path = path
-
-def main(self):
-    print("app")
-
-if __name__ == "__main__":
-    main()
+    @staticmethod
+    def parse(path):
+        print(path)
