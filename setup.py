@@ -12,6 +12,9 @@ setup(
       url='',
       license='ISC',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
+      install_requires=[
+          'PyMobileProvision',
+      ],
       entry_points={
         'console_scripts': ['iparser = iparser.cli:start']
       }
